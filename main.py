@@ -2,6 +2,8 @@ from fileManager import *
 
 instance = FileManager()
 
-instance.WriteFile("C:/Dev/Python/filemanager/test.txt", "aaa")
+str = input()
+
+instance.WriteFile("C:/Dev/Python/filemanager/test.txt", str)
 
 instance.OpenFile("C:/Dev/Python/filemanager/test.txt")
